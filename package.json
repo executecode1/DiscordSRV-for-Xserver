@@ -1,0 +1,24 @@
+{
+  "name": "discordsrv-xserver-edition",
+  "version": "1.0.0",
+  "description": "DiscordSRV integration for Xserver for Game using xserver-client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "setup": "npm install && npx playwright install"
+  },
+  "keywords": [
+    "minecraft",
+    "discord",
+    "xserver",
+    "bot"
+  ],
+  "author": "Maron",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.42.1",
+    "xserver-client": "github:executecode1/xserver-client"
+  }
+}
