@@ -11,7 +11,7 @@ Xserver for Game を使ったマイクラサーバーと Discord を、プラグ
 3. コマンドプロンプト（またはターミナル）で以下を実行：
 
 ```bash
-npm install discord.js dotenv playwright https://github.com/executecode1/xserver-client
+npm install discord.js dotenv playwright xserver-client
 npx playwright install
 ```
 
